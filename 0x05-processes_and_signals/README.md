@@ -30,3 +30,35 @@
 
 [ 8-beheaded_process ](./8-beheaded_process)
     A Bash script that kills the process 7-highlander.
+
+[ 100-process_and_pid_file ](./100-process_and_pid_file)
+    * A Bash script that:
+    * Creates the file /var/run/myscript.pid containing its PID
+    * Displays To infinity and beyond indefinitely
+    * Displays I hate the kill command when receiving a SIGTERM signal
+    * Displays Y U no love me?! when receiving a SIGINT signal
+    * Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
+
+[ 101-manage_my_process ](./101-manage_my_process)
+    Manages manage_my_process
+    * When passing the argument start:
+        * Starts manage_my_process
+        * Creates a file containing its PID in /var/run/my_process.pid
+        * Displays manage_my_process started
+    * When passing the argument stop:
+        * Stops manage_my_process
+        * Deletes the file /var/run/my_process.pid
+        * Displays manage_my_process stopped
+    * When passing the argument restart:
+        * Stops manage_my_process
+        * Deletes the file /var/run/my_process.pid
+        * Starts manage_my_process
+        * Creates a file containing its PID in /var/run/my_process.pid
+        * Displays manage_my_process restarted
+    * Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
+
+[ 102-zombie.c ](./102-zombie.c)
+    A C program that creates 5 zombie processes.
+    * For every zombie process created, it displays Zombie process created, PID: ZOMBIE_PID
+    * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+    * When your code is done creating the parent process and the zombies, use the function bellow
