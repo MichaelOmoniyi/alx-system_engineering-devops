@@ -15,11 +15,10 @@
 #       Displays manage_my_process restarted
 #+  Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
 
-FILE="/var/run/my_process.pid"
 start() {
-    sudo ./manage_my_process &
-    touch "$FILE"
-    echo "$!" > "$FILE"    
+    ./manage_my_process &
+    touch /var/run/my_process.pid
+    echo "$!" > /var/run/my_process.pid
     echo "manage_my_process started"
 }
 
@@ -31,10 +30,10 @@ stop() {
 
 restart() {
     kill "$(cat /var/run/my_process.pid)"
-    rm "$FILE"
-    sudo ./manage_my_process &
-    touch "$FILE"
-    echo "$!" > "$FILE"
+    rm /var/run/my_process.pid
+    ./manage_my_process &
+    touch /var/run/my_process.pid
+    echo "$!" > /var/run/my_process.pid
     echo "manage_my_process restarted"
 }
 
