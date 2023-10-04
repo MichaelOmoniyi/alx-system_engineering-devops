@@ -17,7 +17,7 @@
 [ gacp.sh ](./gacp.sh)
     * The gacp.sh (i.e. git add, commit and push) script adds, commit and pushes file(s) to repository.
     * To use (if in root directory) to add, commit and push all files:
-    ```
+*    ```
     ./gacp.sh
     ```
     * To use (if in root directory) to add, commit and push a file:
