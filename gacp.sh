@@ -6,7 +6,7 @@ if [ $# -eq 1 ]; then
 
     #Checks if file exits
     if [ -e "$file" ]; then
-        git add $file
+        git add "$file"
         echo -e "File '$file' added\n\n"
     else
         git add .
