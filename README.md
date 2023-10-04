@@ -21,7 +21,7 @@
     ./gacp.sh
     ```
     * To use (if in root directory) to add, commit and push a file:
-    ```
+*    ```
     ./gacp.sh FILENAME
     ```
     * To use (if in sub-directory) to add, commit and push all files:
