@@ -30,6 +30,9 @@
 [ 6-phone_number.rb ](./6-phone_number.rb)
     * The regular expression must match a 10 digit phone number
 
+[ 7-OMG_WHY_ARE_YOU_SHOUTING.rb ](./7-OMG_WHY_ARE_YOU_SHOUTING.rb)
+    * The regular expression must be only matching: capital letters
+
 [ template.sh ](./template.sh)
     * This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
     * To use:
