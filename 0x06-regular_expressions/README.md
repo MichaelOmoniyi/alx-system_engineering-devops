@@ -33,7 +33,13 @@
 [ 7-OMG_WHY_ARE_YOU_SHOUTING.rb ](./7-OMG_WHY_ARE_YOU_SHOUTING.rb)
     * The regular expression must be only matching: capital letters
 
-[ template.sh ](./template.sh)
+[ 100-textme.rb ](./100-textme.rb)
+    * Your script should output: [SENDER],[RECEIVER],[FLAGS]
+        * The sender phone number or name (including country code if present)
+        * The receiver phone number or name (including country code if present)
+        * The flags that were used
+
+[ template.rb ](./template.rb)
     * This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
     * To use:
     ```bash

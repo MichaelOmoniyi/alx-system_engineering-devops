@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# This script provides the boilerplate for the ruby script to avoid constantly writting the same thing over and over again.
 
 # Check if the destination file argument is provided
 if ARGV.length != 1
@@ -22,3 +21,7 @@ File.open(destination_file, "w") do |file|
 end
 
 puts "Template script copied to #{destination_file}"
+
+# Open the destination file with vi
+system("vi #{destination_file}")
+
