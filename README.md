@@ -11,3 +11,24 @@
 [0x05-processes_and_signals](./0x05-processes_and_signals/) - Contains files on solutions to tasks on shell process and signals
 
 [command_line_for_the_win](./command_line_for_the_win/) - Contains images showing completion of shell challenge
+
+[ 0x06-regular_expressions ](./0x06-regular_expressions) - Contains files with various Regex patterns
+
+[ gacp.sh ](./gacp.sh)
+    * The gacp.sh (i.e. git add, commit and push) script adds, commit and pushes file(s) to repository.
+    * To use (if in root directory) to add, commit and push all files:
+    ```bash
+    ./gacp.sh
+    ```
+    * To use (if in root directory) to add, commit and push a file:
+    ```bash
+    ./gacp.sh FILENAME
+    ```
+    * To use (if in sub-directory) to add, commit and push all files:
+    ```bash
+    ../gacp.sh
+    ```
+    * To use (if in sub-directory) to add, commit and push a file:
+    ```bash
+    ../gacp.sh FILENAME
+    ```
