@@ -41,21 +41,21 @@
 
 [ 101-manage_my_process ](./101-manage_my_process)
     Manages manage_my_process
-    * When passing the argument start:
-        * Starts manage_my_process
-        * Creates a file containing its PID in /var/run/my_process.pid
-        * Displays manage_my_process started
-    * When passing the argument stop:
-        * Stops manage_my_process
-        * Deletes the file /var/run/my_process.pid
-        * Displays manage_my_process stopped
-    * When passing the argument restart:
-        * Stops manage_my_process
-        * Deletes the file /var/run/my_process.pid
-        * Starts manage_my_process
-        * Creates a file containing its PID in /var/run/my_process.pid
-        * Displays manage_my_process restarted
-    * Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
+When passing the argument start:
+    * Starts manage_my_process
+    * Creates a file containing its PID in /var/run/my_process.pid
+    * Displays manage_my_process started
+When passing the argument stop:
+    * Stops manage_my_process
+    * Deletes the file /var/run/my_process.pid
+    * Displays manage_my_process stopped
+When passing the argument restart:
+    * Stops manage_my_process
+    * Deletes the file /var/run/my_process.pid
+    * Starts manage_my_process
+    * Creates a file containing its PID in /var/run/my_process.pid
+    * Displays manage_my_process restarted
+Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
 
 [ 102-zombie.c ](./102-zombie.c)
     A C program that creates 5 zombie processes.
@@ -64,15 +64,15 @@
     * When your code is done creating the parent process and the zombies, use the function bellow
 
 [ template.sh ](./template.sh)
-    * This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
-    * To use:
-    ```bash
-    ./template.sh FILENAME
-    ```
+This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
+To use:
+```bash
+./template.sh FILENAME
+```
 
 [ executable.sh ](./executable.sh)
-    * This bash script makes files taken as its first argument executable.
-    * To use:
-    ```bash
-    ./executable.sh FILENAME
-    ```
+This bash script makes files taken as its first argument executable.
+To use:
+```bash
+./executable.sh FILENAME
+```

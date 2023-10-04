@@ -34,21 +34,21 @@
     * The regular expression must be only matching: capital letters
 
 [ 100-textme.rb ](./100-textme.rb)
-    * Your script should output: [SENDER],[RECEIVER],[FLAGS]
-        * The sender phone number or name (including country code if present)
-        * The receiver phone number or name (including country code if present)
-        * The flags that were used
+Your script should output: [SENDER],[RECEIVER],[FLAGS]
+    * The sender phone number or name (including country code if present)
+    * The receiver phone number or name (including country code if present)
+    * The flags that were used
 
 [ template.rb ](./template.rb)
-    * This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
-    * To use:
-    ```bash
-    ./template.sh FILENAME
-    ```
+This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
+To use:
+```bash
+./template.sh FILENAME
+```
 
 [ executable.sh ](./executable.sh)
-    * This bash script makes files taken as its first argument executable.
-    * To use:
-    ```bash
-    ./executable.sh FILENAME
-    ```
+This bash script makes files taken as its first argument executable.
+To use:
+```bash
+./executable.sh FILENAME
+```
