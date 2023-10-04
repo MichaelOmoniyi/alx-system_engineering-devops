@@ -62,3 +62,17 @@
     * For every zombie process created, it displays Zombie process created, PID: ZOMBIE_PID
     * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
     * When your code is done creating the parent process and the zombies, use the function bellow
+
+[ template.sh ](./template.sh)
+    * This bash script creates a boiler plate/template for the ruby scripts to prevent constant writing of the same thing.
+    * To use:
+    ```bash
+    ./template.sh FILENAME
+    ```
+
+[ executable.sh ](./executable.sh)
+    * This bash script makes files taken as its first argument executable.
+    * To use:
+    ```bash
+    ./executable.sh FILENAME
+    ```
