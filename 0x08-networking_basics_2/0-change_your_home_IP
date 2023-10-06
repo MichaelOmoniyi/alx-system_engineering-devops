@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configures on Ubuntu server with the following requirements:
+#+ localhost resolves to 127.0.0.2
+#+ facebook.com reolves to 8.8.8.8
+
+sudo echo "127.0.0.2    localhost" >> /etc/hosts
+sudo echo "8.8.8.8  facebook.com" >> /etc/hosts
