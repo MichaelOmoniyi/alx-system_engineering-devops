@@ -1,0 +1,15 @@
+Whiteboarding Link - https://jamboard.google.com/d/1ewX-yALI_iq6N5tdrSLq-MWagKs0ZsOago_OEYkroFE/viewer?f=2
+
+Firewall: This protects agains unauthorized acess.
+
+SSL Certificates (HTTPS): This ensures secure, encrypted communication between the client and the server.
+
+Monitoring: Monitoring clients collect and send performance, security, and operational data to monitoring services for analysis and visualization.
+
+
+ISSUES WITH THE INFRASTRUCTURE
+Terminating SSL at the Load Balancer Level: Terminating SSL at the load balancer level (not end-to-end encryption) means that data is decrypted at the load balancer, which might be vulnerable to interception within the internal network.
+
+Having Only One MySQL Server Capable of Accepting Writes: Having only one MySQL server capable of accepting writes creates a single point of failure for write operations. If it fails, write operations halt.
+
+Having Servers with All the Same Components (Database, Web Server, and Application Server): Having servers with the same components might lead to uniform vulnerabilities. If a vulnerability affects one server, it could potentially affect all servers, creating a systemic risk.
