@@ -1,0 +1,5 @@
+White boarding Link: https://jamboard.google.com/d/1ewX-yALI_iq6N5tdrSLq-MWagKs0ZsOago_OEYkroFE/viewer?f=3
+
+Load Balancer (HAProxy Cluster): HAProxy, configured as a cluster, serves as a backup for the other load balancer. It distributes incoming traffic across multiple servers, ensuring even load distribution, fault tolerance, and high availability.
+
+Having different component on different servers evades the issue of the vulnerability of one component affecting the other.
