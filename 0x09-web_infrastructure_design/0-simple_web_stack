@@ -1,0 +1,23 @@
+Whiteboarding link - https://jamboard.google.com/d/1ewX-yALI_iq6N5tdrSLq-MWagKs0ZsOago_OEYkroFE/viewer?f=0
+
+Server - A server is a powerful computer that stores data, runs applications, and provides services to other computers (clients) in a network. In this context, the server hosts the entire web infrastructure.
+
+Domain - The domain name is a human-readable address used to access a website. It is used in place of an IP address for easy remembrance. The domain name points to the website IP address. In this case the domain name is foobar.com and the IP address is 8.8.8.8.
+
+DNS Record for www - The DNS record for "www" is a Cannonical Name (CNAME) record. Where "www" is a subdomain to the root domain "foobar.com" resolving to the same IP address.
+
+Web server - This handles https request from clients (users computer/web browser). It returns static contents and also sends dynamic request to the application server.
+
+Application sever - The application server communicates with the web server to excute logical processes (such as authentication, database interactions, etc.). It executes dynamic codes, processes requests, and generate dynamic content.
+
+Database - This stores structured data for the website such as user information, products, etc. The application software interacts with the database to get data for it logical process and processing dynamic contents.
+
+Server communication - In this case, the server is communicating with the client via HTTP/HTTPS, i.e Hypertext Transfer Protocol or HTTP Secured.
+
+
+ISSUES WITH THE INFRASTRUCTURE
+Single Point of Failure (SPOF): In this infrastructure, there is only one server available. Therefore, if this single server breaks, the website becomes inaccessible. This creates a Single Point of failure.
+
+Downtime during maintenace: As only one server is available, when updates and maintenace are carried out on the server, the server might need to be restarted and this results in a downtime moment leaving the site inaccessible to users.
+
+Limited scalabilit: The infrastructure does not allow for scaling under high traffic loads. This can result in the website server responding slowly to requests.
