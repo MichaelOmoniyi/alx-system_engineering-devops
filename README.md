@@ -14,6 +14,14 @@
 
 - [ 0x06-regular_expressions ](./0x06-regular_expressions) - Contains files with various Regex patterns
 
+- [ 0x07-networking_basics ](./0x07-networking_basics) - This project is based on basic networking tasks.
+
+- [ 0x08-networking_basics_2 ](./0x08-networking_basics_2) - This project is based on more networking tasks.
+
+- [ 0x09-web_infrastructure_design ](./0x09-web_infrastructure_design) - This project is based on whiteboarding the representation of various web infrastructures.
+
+- [ command_line_for_the_win ](./command_line_for_the_win) - This project is about complete challenges based on the knowledge of using shell.
+
 - [ gacp.sh ](./gacp.sh)
     - The gacp.sh (i.e. git add, commit and push) script adds, commit and pushes file(s) to repository.
     - To use (if in root directory) to add, commit and push all files:
