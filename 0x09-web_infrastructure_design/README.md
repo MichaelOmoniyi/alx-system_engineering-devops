@@ -1,8 +1,8 @@
-#0x09. Web infrastructure design
+# 0x09. Web infrastructure design
 
 This project is based on whiteboarding various web infrastructures.
 
-##Tasks
+## Tasks
 * **[ 0-simple_web_stack ](./0-simple_web_stack)**  This file contains the link to the whiteboarding on a web infrastructure based on:
     * 1 server
     * 1 web server (Nginx)
