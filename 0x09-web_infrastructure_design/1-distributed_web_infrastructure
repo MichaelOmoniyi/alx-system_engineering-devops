@@ -1,0 +1,16 @@
+Whiteboarding link - https://jamboard.google.com/d/1ewX-yALI_iq6N5tdrSLq-MWagKs0ZsOago_OEYkroFE/viewer?f=1
+
+Additional server: Serves as a backup for the other server incase of a crash.
+
+Load Balancer (HAProxy): HAProxy help distributes the incoming traffic/requests across multiple server thus improving the website performance.
+                         HAProxy is configured with a Round Robin distribution algorithm. It circles through the servers in a circular order ensuring load distribution.
+
+The load balancer employs and active-active setup where all servers are actively serving requests.
+In Active-Active setup, all servers are handling requests simultaneously but in a Passive-Active setup, the standby serves only become active when the main server crashes.
+
+ISSUES WITH THE INFRASTRUCTURE
+Single Point of Failure: The primary database is a SPOF for write operations because when it fails, write operations halt.
+
+Security Issues (No firewall, No https): An absence of firewall could lead to unauthorized access while lack of HTTPS leaves transmited data unecrypted and vulnerable to interception.
+
+Monitoring: With no monitoring setup in place, the administators have no insight into the server performance, security threat, and other potential issues.
