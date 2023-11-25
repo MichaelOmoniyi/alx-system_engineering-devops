@@ -11,3 +11,5 @@ This project is based on setting up and configuring servers for future ALX tasks
         * The created key must be protected by the passphrase betty
 
 * [ 2-ssh_config ](./2-ssh_config): This file contains the configurations made to the SSH configuration file.
+
+* [ 100-puppet_ssh_config.pp ](./100-puppet_ssh_config.pp): This task is based on using puppet for SSH configuration.
