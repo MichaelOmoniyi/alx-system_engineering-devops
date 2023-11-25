@@ -20,6 +20,10 @@
 
 - [ 0x09-web_infrastructure_design ](./0x09-web_infrastructure_design) - This project is based on whiteboarding the representation of various web infrastructures.
 
+- [ 0x0A-configuration_management ](./0x0A-configuration_management) - This project is based on the usage of puppet as a configuration management tool.
+
+- [ 0x0B-ssh ](./0x0B-ssh) - This project is based on setting up servers and making few configuration changes.
+
 - [ command_line_for_the_win ](./command_line_for_the_win) - This project is about complete challenges based on the knowledge of using shell.
 
 - [ gacp.sh ](./gacp.sh)
