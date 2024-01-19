@@ -24,5 +24,4 @@ def top_ten(subreddit):
         for data in data_list:
             print(data.get('data').get('title'))
     except Exception:
-        print("Not found")
-        return 0
+        return None
