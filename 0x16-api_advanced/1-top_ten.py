@@ -10,9 +10,9 @@ def top_ten(subreddit):
     """ Prints the titles of the first 10 hot posts for a given subreddit """
 
     if subreddit is None and not isinstance(subreddit, str):
-        return None
+        print("None")
 
-    params = {"where": "popular", "limit": 10}
+    params = {"limit": 10}
     header = {"User-Agent": "Google Chrome Version 81.0.4044.129"}
     base_url = f"https://www.reddit.com/r/{subreddit}/hot/.json"
     response = get(base_url, params=params, headers=header)
@@ -24,4 +24,4 @@ def top_ten(subreddit):
         for data in data_list:
             print(data.get('data').get('title'))
     except Exception:
-        return None
+        print("None")
