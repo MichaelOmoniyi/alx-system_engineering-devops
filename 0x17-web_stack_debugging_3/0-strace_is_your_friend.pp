@@ -1,8 +1,6 @@
-# Replaces a line in a file in server
-
-$file = '/var/www/html/wp-setting.php'
+# Fixes 500 error
 
 exec { 'replace_line':
-    command => "sed -i 's/phpp/php/g' ${file}",
-    path    => ['/bin','/usr/bin']
+    provider => shell,
+    command  => "sed -i 's/phpp/php/g' /var/www/html/wp-settings.php"
 }
