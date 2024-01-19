@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Quereies the Reddit API and prints the titles of the first 10 hot posts listed for a given subreddit.
+Quereies the Reddit API and prints the titles of the first 10 hot posts
+listed for a given subreddit.
 """
 from requests import get
 
@@ -19,7 +20,7 @@ def top_ten(subreddit):
     try:
         data = response.json()
         data_list = data.get('data').get('children')
-        
+
         for data in data_list:
             print(data.get('data').get('title'))
     except Exception:
